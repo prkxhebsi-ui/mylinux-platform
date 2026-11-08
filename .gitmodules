@@ -1,0 +1,4 @@
+[submodule "system/sepolicy"]
+    path = system/sepolicy
+    url = https://android.googlesource.com/platform/system/sepolicy
+    branch = android11-dev

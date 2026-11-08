@@ -1,0 +1,17 @@
+MyLinux kernel integration
+==========================
+
+The platform source tree is separate from the kernel source.
+
+Current development kernel:
+    $HOME/roms/kernel/samsung/gto
+
+This directory is reserved for integration metadata and build
+configuration. It is not a copy of the kernel source.
+
+Before building a boot image, validate:
+- target architecture and board configuration
+- kernel configuration
+- device tree and boot image format
+- vendor dependencies
+- Android kernel interface compatibility

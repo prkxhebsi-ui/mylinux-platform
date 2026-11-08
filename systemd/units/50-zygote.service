@@ -1,0 +1,7 @@
+[Unit]
+Description=Android Zygote Runtime
+
+[Service]
+Type=simple
+ExecStart=/system/bin/app_process64 -Xzygote /system/bin --zygote --start-system-server
+Restart=on-failure

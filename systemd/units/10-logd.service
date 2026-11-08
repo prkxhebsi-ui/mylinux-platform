@@ -1,0 +1,7 @@
+[Unit]
+Description=Android System Logger
+
+[Service]
+Type=simple
+ExecStart=/system/bin/logd
+Restart=on-failure

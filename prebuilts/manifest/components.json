@@ -1,0 +1,40 @@
+{
+  "project": "MyLinux",
+  "schema_version": 1,
+  "host": {
+    "primary": "android-arm64-termux",
+    "architecture": "aarch64"
+  },
+  "components": [
+    {
+      "name": "clang",
+      "version": "system",
+      "host": "android-arm64-termux",
+      "status": "external"
+    },
+    {
+      "name": "go",
+      "version": "1.27.3",
+      "host": "android-arm64-termux",
+      "status": "external"
+    },
+    {
+      "name": "android-sdk-platform-35",
+      "version": "35",
+      "host": "android-arm64-termux",
+      "status": "external"
+    },
+    {
+      "name": "ninja",
+      "version": "unknown",
+      "host": "android-arm64-termux",
+      "status": "not-installed"
+    },
+    {
+      "name": "bazel",
+      "version": "unknown",
+      "host": "android-arm64-termux",
+      "status": "not-installed"
+    }
+  ]
+}

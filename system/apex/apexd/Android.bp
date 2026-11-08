@@ -1,0 +1,24 @@
+cc_binary {
+    name: "mylinux_apexd",
+
+    srcs: [
+        "apexd_main.cpp",
+        "apexd.cpp",
+    ],
+
+    local_include_dirs: [
+        ".",
+    ],
+
+    cflags: [
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+    ],
+
+    cpp_std: "c++11",
+
+    init_rc: [
+        "apexd.rc",
+    ],
+}

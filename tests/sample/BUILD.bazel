@@ -1,0 +1,14 @@
+load("//build/bazel/rules/cc:defs.bzl", "mylinux_cc_binary", "mylinux_cc_library")
+
+package(default_visibility = ["//visibility:public"])
+
+mylinux_cc_library(
+    name = "libmylinux_base",
+    srcs = ["base.c"],
+)
+
+mylinux_cc_binary(
+    name = "mylinux_test",
+    srcs = ["main.c"],
+    deps = [":libmylinux_base"],
+)

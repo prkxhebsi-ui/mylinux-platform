@@ -1,0 +1,7 @@
+[Unit]
+Description=Android Binder Service Manager
+
+[Service]
+Type=simple
+ExecStart=/system/bin/servicemanager
+Restart=on-failure

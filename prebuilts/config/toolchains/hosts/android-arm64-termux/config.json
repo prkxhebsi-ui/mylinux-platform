@@ -1,0 +1,10 @@
+{
+  "name": "android-arm64-termux",
+  "operating_system": "android",
+  "architecture": "arm64",
+  "environment": "termux",
+  "compiler": "clang",
+  "shell": "bash",
+  "path_lookup": true,
+  "external_tools_allowed": true
+}

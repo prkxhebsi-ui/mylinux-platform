@@ -1,0 +1,2 @@
+# Recovery-specific initialization placeholder.
+# Recovery boot requires its own filesystem and SELinux setup.

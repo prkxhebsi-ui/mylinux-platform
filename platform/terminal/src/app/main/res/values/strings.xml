@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyLinux Terminal</string>
+    <string name="terminal_title">MyLinux</string>
+    <string name="terminal_welcome">Welcome to MyLinux</string>
+    <string name="terminal_input_hint">Enter a command</string>
+</resources>

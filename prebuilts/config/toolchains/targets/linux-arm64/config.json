@@ -1,0 +1,8 @@
+{
+  "name": "linux-arm64",
+  "architecture": "arm64",
+  "triple": "aarch64-linux-gnu",
+  "default_compiler": "clang",
+  "default_linker": "ld.lld",
+  "position_independent_executables": true
+}

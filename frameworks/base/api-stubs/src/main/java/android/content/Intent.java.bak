@@ -1,0 +1,32 @@
+package android.content;
+
+public class Intent {
+    private String action;
+    private String packageName;
+
+    public Intent() {}
+
+    public Intent(String action) {
+        this.action = action;
+    }
+
+    public Intent(Context context, Class<?> target) {}
+
+    public Intent setAction(String action) {
+        this.action = action;
+        return this;
+    }
+
+    public String getAction() {
+        return action;
+    }
+
+    public Intent setPackage(String packageName) {
+        this.packageName = packageName;
+        return this;
+    }
+
+    public String getPackage() {
+        return packageName;
+    }
+}

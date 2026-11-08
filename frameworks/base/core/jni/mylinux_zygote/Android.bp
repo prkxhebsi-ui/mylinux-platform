@@ -1,0 +1,36 @@
+cc_library_shared {
+    name: "libmylinux_zygote_jni",
+
+    srcs: [
+        "zygote_jni.cpp",
+        "zygote_socket.cpp",
+    ],
+
+    header_libs: [
+        "jni_headers",
+    ],
+
+    cflags: [
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-std=c++17",
+    ],
+
+    compile_multilib: "64",
+
+    arch: {
+        arm64: {
+            enabled: true,
+        },
+        x86: {
+            enabled: false,
+        },
+        x86_64: {
+            enabled: false,
+        },
+        arm: {
+            enabled: false,
+        },
+    },
+}

@@ -1,0 +1,24 @@
+{
+  "name": "libcrypto",
+  "project": "MyLinux",
+  "version": "0.1.0",
+  "architecture": "aarch64",
+  "platform": "android",
+  "api_level": 30,
+  "compatibility": {
+    "openssl": true,
+    "boringssl": true
+  },
+  "components": [
+    "crypto",
+    "digest",
+    "cipher",
+    "mac",
+    "random"
+  ],
+  "security": {
+    "reviewed_implementations_required": true,
+    "placeholder_crypto_allowed": false,
+    "private_keys_in_source": false
+  }
+}

@@ -1,0 +1,22 @@
+# MyLinux OpenJDK environment symbol table
+# Format: HEX_VALUE SYMBOL_NAME SYMBOL_TYPE
+
+0x18383989    mylinux_ojluni          ENV_MAGIC
+0x18383990    mylinux_example         ENVIRONMENT
+0x18383991    openjdk                 ENV_IMPLEMENTATION
+0x18383992    android_arm64           ENV_ARCH
+0x18383993    android                 ENV_TARGET
+0x18383994    org_mylinux_ojluni      ENV_PACKAGE
+0x18383995    mylinux_development     ENV_BUILD
+0x18383996    arm64                   ENV_ABI
+0x18383997    api_30                  ENV_API
+0x18383998    mylinux_luni            ENV_RUNTIME_OWNER
+0x18383999    java_base               ENV_MODULE
+0x1838399A    java_io                 ENV_MODULE
+0x1838399B    java_util               ENV_MODULE
+0x1838399C    java_net                ENV_MODULE
+0x1838399D    java_security           ENV_MODULE
+0x1838399E    java_text               ENV_MODULE
+0x1838399F    java_time               ENV_MODULE
+0x183839A0    java_math               ENV_MODULE
+0x183839A1    java_nio                ENV_MODULE

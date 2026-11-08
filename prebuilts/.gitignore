@@ -1,0 +1,10 @@
+# Generated compiler outputs
+*.o
+*.d
+*.gcda
+*.gcno
+
+# Temporary downloads and extraction directories
+*.part
+*.download
+*.tmp

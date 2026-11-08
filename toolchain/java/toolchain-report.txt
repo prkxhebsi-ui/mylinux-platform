@@ -1,0 +1,18 @@
+MyLinux Java Framework Toolchain
+=================================
+
+javac      /data/data/com.termux/files/usr/bin/javac
+jar        /data/data/com.termux/files/usr/bin/jar
+d8         MISSING
+cat        /data/data/com.termux/files/usr/bin/cat
+rmdir      /data/data/com.termux/files/usr/bin/rmdir
+mkdir      /data/data/com.termux/files/usr/bin/mkdir
+
+Java compiler:
+javac 21.0.13
+
+JAR tool:
+jar 21.0.13
+
+D8 search:
+D8 not found in Android SDK build-tools.

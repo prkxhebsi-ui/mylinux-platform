@@ -1,0 +1,29 @@
+package android.content.pm;
+
+public enum ManifestAction {
+    MAIN,
+    VIEW,
+    EDIT,
+    INSERT,
+    DELETE,
+    SEND,
+    SEND_MULTIPLE,
+    PICK,
+    GET_CONTENT,
+    DIAL,
+    CALL,
+    ANSWER,
+    BOOT_COMPLETED,
+    PACKAGE_ADDED,
+    PACKAGE_REMOVED,
+    PACKAGE_CHANGED,
+    USER_PRESENT,
+    POWER_CONNECTED,
+    POWER_DISCONNECTED,
+    LOCALE_CHANGED,
+    TIME_CHANGED,
+    TIMEZONE_CHANGED,
+    SCREEN_ON,
+    SCREEN_OFF,
+    CUSTOM
+}

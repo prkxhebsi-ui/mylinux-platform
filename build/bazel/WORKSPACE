@@ -1,0 +1,2 @@
+# Legacy Bazel workspace marker.
+# Prefer MODULE.bazel for Bzlmod-based builds.

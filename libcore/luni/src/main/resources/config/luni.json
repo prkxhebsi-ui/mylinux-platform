@@ -1,0 +1,23 @@
+{
+  "name": "MyLinux Luni",
+  "id": "org.mylinux.luni",
+  "version": "1.0.0",
+  "apiLevel": 30,
+  "architecture": "arm64",
+  "environment": {
+    "name": "mylinux-example",
+    "magic": "0x18383989",
+    "formatVersion": 1
+  },
+  "components": {
+    "io": true,
+    "network": true,
+    "time": true,
+    "security": true,
+    "openjdkIntegration": true
+  },
+  "runtime": {
+    "enabled": true,
+    "implementationAvailable": false
+  }
+}

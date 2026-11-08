@@ -1,0 +1,15 @@
+#ifndef MYLINUX_ART_RUNTIME_FEATURES_H
+#define MYLINUX_ART_RUNTIME_FEATURES_H
+
+#include <stdint.h>
+
+enum {
+    ART_FEATURE_METADATA       = UINT64_C(1) << 0,
+    ART_FEATURE_RUNTIME_BRIDGE = UINT64_C(1) << 1,
+    ART_FEATURE_DEX_METADATA   = UINT64_C(1) << 2,
+    ART_FEATURE_LIBRARY_LOADER = UINT64_C(1) << 3,
+    ART_FEATURE_JIT            = UINT64_C(1) << 4,
+    ART_FEATURE_GC             = UINT64_C(1) << 5
+};
+
+#endif

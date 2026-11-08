@@ -1,0 +1,12 @@
+{
+  "name": "android-arm64",
+  "architecture": "arm64",
+  "triple": "aarch64-linux-android",
+  "api_level": 30,
+  "sysroot": "prebuilts/toolchains/llvm/sysroot",
+  "position_independent_executables": true,
+  "shared_libraries": true,
+  "static_libraries": true,
+  "default_compiler": "clang",
+  "default_linker": "ld.lld"
+}

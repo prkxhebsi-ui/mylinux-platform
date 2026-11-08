@@ -1,0 +1,8 @@
+import /init.zygote64.rc
+
+service zygote_secondary /system/bin/app_process32 -Xzygote /system/bin --zygote --socket-name=zygote_secondary
+    class main
+    priority -20
+    user root
+    group root readproc
+    socket zygote_secondary stream 660 root system

@@ -1,0 +1,1 @@
+mylinux/config/platform.mk

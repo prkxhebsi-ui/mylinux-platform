@@ -1,0 +1,11 @@
+common --color=yes
+common --curses=no
+
+build --announce_rc
+build --show_progress_rate_limit=10
+
+build:debug --compilation_mode=dbg
+build:release --compilation_mode=opt
+build:fast --compilation_mode=fastbuild
+
+test --test_output=errors

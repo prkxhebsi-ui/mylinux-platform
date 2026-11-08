@@ -1,0 +1,8 @@
+#ifndef MYLIBCRYPTO_MAC_INTERNAL_H
+#define MYLIBCRYPTO_MAC_INTERNAL_H
+
+#include <stddef.h>
+
+#define CRYPTO_HMAC_MAX_DIGEST_SIZE 64
+
+#endif

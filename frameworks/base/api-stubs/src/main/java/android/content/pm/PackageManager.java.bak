@@ -1,0 +1,13 @@
+package android.content.pm;
+
+public abstract class PackageManager {
+    public static final int GET_ACTIVITIES = 0x00000001;
+    public static final int GET_SERVICES = 0x00000004;
+    public static final int GET_PERMISSIONS = 0x00001000;
+
+    public abstract PackageInfo getPackageInfo(String packageName, int flags);
+
+    public abstract ApplicationInfo getApplicationInfo(String packageName, int flags);
+
+    public abstract boolean hasSystemFeature(String feature);
+}

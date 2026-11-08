@@ -1,0 +1,31 @@
+MyLinux Bionic libc header integration
+======================================
+
+Target baseline: Android 11 Bionic
+
+C standard headers:
+  include/stdio.h
+  include/string.h
+
+POSIX/Linux system headers:
+  include/sys/mount.h
+  include/sys/epoll.h
+  include/poll.h
+  include/sys/time.h
+  include/sys/wait.h
+
+C++ headers belong to libc++, not libc:
+  cstdio
+  cstring
+
+Integration requirements:
+  1. Import authentic headers from the Android 11 Bionic source.
+  2. Preserve upstream copyright and license notices.
+  3. Preserve API-level guards and feature-test conditions.
+  4. Import required dependent headers and bits definitions.
+  5. Do not replace missing definitions with guessed prototypes.
+  6. Compile test translation units before marking headers integrated.
+
+Important:
+  Creating an include directory does not mean the headers are
+  implemented. Do not add empty placeholder headers.

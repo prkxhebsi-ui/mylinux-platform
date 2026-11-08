@@ -1,0 +1,98 @@
+MYLINUX ELF SECTION CONVENTIONS
+===============================
+
+Purpose
+-------
+This document describes section names used by MyLinux native code.
+
+Read-only data
+--------------
+.rodata.mylinux
+.rodata.mylinux.*
+
+Initialized data
+----------------
+.data.mylinux
+.data.mylinux.*
+
+Zero-initialized data
+---------------------
+.bss.mylinux
+.bss.mylinux.*
+
+Metadata
+--------
+.mylinux.metadata
+.mylinux.metadata.*
+
+Assembly
+--------
+Preprocessed assembly sources use the .S extension.
+Plain assembler sources use the .s extension.
+The compiler driver should be used for target-specific assembly.
+
+Linker scripts
+--------------
+The .lds.S extension identifies preprocessed linker-script source.
+The .lds extension identifies linker-script input.
+Generated files belong in the build output directory.
+Generated output should not silently overwrite source-controlled files.
+
+Alignment
+---------
+Alignment must satisfy the target ABI.
+Data alignment should not be increased without a reason.
+Code alignment should follow architecture requirements.
+Linker symbols should have documented boundaries.
+
+Retention
+---------
+KEEP() prevents selected input sections from garbage collection.
+Retention must be limited to required metadata and entry points.
+Keeping every section can increase binary size unnecessarily.
+
+Ordering
+--------
+Section wildcard ordering affects matching.
+Specific sections should be considered before broad wildcards.
+Dedicated security or metadata sections must not be consumed early.
+The final order must be validated using the actual linker.
+
+Compatibility
+-------------
+The fragment depends on GNU-compatible linker-script support.
+The target linker must support the chosen INSERT directive.
+AOSP target linkers and flags vary across components.
+Do not add the fragment globally without checking consumers.
+
+Validation
+----------
+Inspect generated linker scripts.
+Inspect section headers in linked ELF files.
+Inspect symbols and section sizes.
+Check alignment.
+Check for duplicate global symbols.
+Check for unintended writable metadata.
+Check release and debug builds independently.
+
+Security
+--------
+Linker sections are not access-control policies.
+Read-only placement does not prove data integrity.
+A metadata string does not establish trust.
+Memory protection depends on ELF program headers and runtime mapping.
+Verified boot is a separate platform mechanism.
+
+Maintenance
+-----------
+Keep source fragments under version control.
+Keep generated files out of source directories.
+Document exported linker symbols.
+Avoid conflicting section names across independent libraries.
+Test every linker-fragment change on the intended target.
+
+Status
+------
+Development-only integration fragment.
+Not a complete AOSP linker script.
+Requires target-specific validation.

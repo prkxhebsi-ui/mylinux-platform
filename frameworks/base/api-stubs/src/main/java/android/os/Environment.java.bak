@@ -1,0 +1,23 @@
+package android.os;
+
+import java.io.File;
+
+public final class Environment {
+    private Environment() {}
+
+    public static File getDataDirectory() {
+        return new File("/data");
+    }
+
+    public static File getRootDirectory() {
+        return new File("/system");
+    }
+
+    public static File getExternalStorageDirectory() {
+        return new File("/sdcard");
+    }
+
+    public static String getExternalStorageState() {
+        return "unknown";
+    }
+}

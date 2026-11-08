@@ -1,0 +1,35 @@
+MyLinux libc
+============
+
+Project: independent lightweight libc implementation
+Compatibility target: Android 11 / AArch64 initially
+
+Headers:
+  include/stdio.h
+  include/string.h
+  include/sys/mount.h
+  include/sys/epoll.h
+  include/poll.h
+  include/sys/time.h
+  include/sys/wait.h
+
+Implementation directories:
+  src/stdio
+  src/string
+  src/mount
+  src/epoll
+  src/poll
+  src/time
+  src/wait
+
+Tests:
+  tests
+
+Rules:
+  - Additive changes; preserve existing files.
+  - Do not claim ABI compatibility before testing it.
+  - Keep Linux kernel constants and structures accurate.
+  - Do not implement privileged operations by bypassing security.
+  - Keep C++ cstdio and cstring in the libc++ subsystem.
+  - Compile-check real implementations; do not run test binaries
+    automatically during the build.

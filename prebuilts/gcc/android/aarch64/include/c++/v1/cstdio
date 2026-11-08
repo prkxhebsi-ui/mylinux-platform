@@ -1,0 +1,6 @@
+#ifndef MYLINUX_CXX_CSTDIO
+#define MYLINUX_CXX_CSTDIO
+
+#error "MyLinux libc++ cstdio placeholder: install matching libc++ headers"
+
+#endif

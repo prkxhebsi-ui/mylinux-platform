@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<go version="1">
+    <version>1.0</version>
+    <directories>
+        <dir>lib64/go</dir>
+        <dir>lib64/go/src</dir>
+        <dir>lib64/go/pkg</dir>
+        <dir>lib64/go/bin</dir>
+        <dir>lib64/go/lib</dir>
+        <dir>lib64/go/lib64</dir>
+        <dir>lib64/go/usr</dir>
+        <dir>lib64/go/env</dir>
+        <dir>bin</dir>
+        <dir>env</dir>
+    </directories>
+    <environment>
+        <variable name="GOROOT" value="$PREFIX/lib64/go"/>
+        <variable name="GOPATH" value="$PREFIX/lib64/go"/>
+        <variable name="GOCACHE" value="$PREFIX/tmp/go-build"/>
+        <variable name="GOOS" value="android"/>
+        <variable name="GOARCH" value="arm64"/>
+    </environment>
+</go>

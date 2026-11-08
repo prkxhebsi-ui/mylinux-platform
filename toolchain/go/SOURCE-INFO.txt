@@ -1,0 +1,20 @@
+MyLinux Go Source Tree
+
+Source origin:
+/data/data/com.termux/files/usr/lib/go/src
+
+Original compiler:
+go version go1.27.3 android/arm64
+
+Source destination:
+toolchain/go/src/
+
+This tree contains genuine Go distribution source.
+It is not a custom reimplementation.
+
+Target configuration:
+GOOS=android
+GOARCH=arm64
+
+The source version should match the compiler version
+used to build the MyLinux Go toolchain.

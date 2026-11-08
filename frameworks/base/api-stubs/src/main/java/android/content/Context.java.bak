@@ -1,0 +1,26 @@
+package android.content;
+
+import java.io.File;
+
+public abstract class Context {
+    public static final String WIFI_SERVICE = "wifi";
+    public static final String TELEPHONY_SERVICE = "phone";
+    public static final String CONNECTIVITY_SERVICE = "connectivity";
+    public static final String AUDIO_SERVICE = "audio";
+
+    public abstract Object getSystemService(String name);
+
+    public abstract String getPackageName();
+
+    public abstract File getFilesDir();
+
+    public abstract File getCacheDir();
+
+    public void startActivity(Intent intent) {
+        throw new UnsupportedOperationException("API stub");
+    }
+
+    public String getString(int resourceId) {
+        throw new UnsupportedOperationException("API stub");
+    }
+}

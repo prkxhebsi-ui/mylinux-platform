@@ -1,0 +1,3 @@
+# Entry point for Ninja.
+# Run ./configure.sh first to generate build/build.ninja.
+subninja build/build.ninja

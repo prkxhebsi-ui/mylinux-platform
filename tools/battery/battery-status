@@ -1,0 +1,11 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+STATE_FILE="${XDG_STATE_HOME:-$HOME/.local/state}/mylinux/terminal-battery/percent"
+
+if [ ! -f "$STATE_FILE" ]; then
+    mkdir -p "$(dirname "$STATE_FILE")"
+    printf '0\n' > "$STATE_FILE"
+fi
+
+VALUE=$(cat "$STATE_FILE")
+echo "MyLinux Terminal Battery: ${VALUE}%"

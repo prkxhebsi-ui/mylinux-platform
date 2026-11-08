@@ -1,0 +1,8 @@
+# MyLinux generic device init configuration.
+#
+# This file is intentionally minimal.
+# Integrate it through the target's verified init import mechanism.
+# Do not replace the AOSP root init.rc with this file.
+
+# Device-specific actions and service definitions will be added
+# only after the target hardware and Android init flow are verified.

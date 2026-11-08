@@ -1,0 +1,13 @@
+cc_binary {
+    name: "mylinux-vold",
+    srcs: [
+        "main.c",
+        "VolumeManager.c",
+    ],
+    local_include_dirs: ["include"],
+    cflags: [
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+    ],
+}

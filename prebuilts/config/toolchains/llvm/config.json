@@ -1,0 +1,16 @@
+{
+  "name": "mylinux-llvm",
+  "enabled": true,
+  "compiler": "clang",
+  "cxx_compiler": "clang++",
+  "linker": "ld.lld",
+  "archiver": "llvm-ar",
+  "ranlib": "llvm-ranlib",
+  "objcopy": "llvm-objcopy",
+  "objdump": "llvm-objdump",
+  "readelf": "llvm-readelf",
+  "nm": "llvm-nm",
+  "strip": "llvm-strip",
+  "default_target": "aarch64-linux-android30",
+  "position_independent": true
+}

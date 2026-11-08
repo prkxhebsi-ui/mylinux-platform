@@ -1,0 +1,17 @@
+package(default_visibility = ["//visibility:public"])
+
+filegroup(
+    name = "linux_arm64_config",
+    srcs = [
+        "//prebuilts/config/toolchains/targets/linux-arm64:config.json",
+        "//prebuilts/config/toolchains/llvm:config.json",
+    ],
+)
+
+filegroup(
+    name = "linux_x86_64_config",
+    srcs = [
+        "//prebuilts/config/toolchains/targets/linux-x86_64:config.json",
+        "//prebuilts/config/toolchains/llvm:config.json",
+    ],
+)

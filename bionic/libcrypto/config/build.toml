@@ -1,0 +1,23 @@
+[project]
+name = "libcrypto"
+version = "0.1.0"
+language = "c"
+standard = "c11"
+
+[target]
+platform = "android"
+architecture = "aarch64"
+api_level = 30
+
+[compatibility]
+openssl = true
+boringssl = true
+
+[compiler]
+warnings = ["-Wall", "-Wextra", "-Werror"]
+optimization = "-O2"
+position_independent_code = true
+
+[security]
+reviewed_backend_required = true
+allow_placeholder_crypto = false

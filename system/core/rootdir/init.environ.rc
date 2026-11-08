@@ -1,0 +1,6 @@
+# MyLinux process environment.
+
+on init
+    export ANDROID_RUNTIME_ROOT /apex/com.android.runtime
+    export ANDROID_TZDATA_ROOT /apex/com.android.tzdata
+    export ANDROID_ART_ROOT /apex/com.android.art

@@ -1,0 +1,8 @@
+# MyLinux generic device initialization.
+# Hardware-specific mounts, permissions and services go here.
+
+on early-init
+    # Hardware initialization placeholder.
+
+on boot
+    # Device boot configuration placeholder.

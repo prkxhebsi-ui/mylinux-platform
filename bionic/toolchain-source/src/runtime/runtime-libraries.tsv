@@ -1,0 +1,8 @@
+# Output nameRoleExpected source/provider
+ld-android.soAndroid dynamic linkerBionic linker sources and Android target build
+libvulkan.soVulkan loaderAndroid Vulkan loader implementation
+zlib.soCompression compatibility libraryzlib source; conventional output is libz.so
+libarchive.soArchive librarylibarchive source and dependencies
+libc.soC runtimeBionic libc sources
+libc++.soC++ standard libraryLLVM libc++ sources
+libmylinux.soMyLinux runtimebionic/libmylinux/

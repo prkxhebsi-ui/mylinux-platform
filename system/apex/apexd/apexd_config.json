@@ -1,0 +1,17 @@
+{
+  "name": "mylinux_apexd",
+  "version": "1.0",
+  "android_release": "11",
+  "api_level": 30,
+  "directories": {
+    "system": "/system/apex",
+    "data": "/data/apex",
+    "runtime": "/apex"
+  },
+  "features": {
+    "package_scanning": true,
+    "signature_verification": false,
+    "image_mounting": false,
+    "rollback": false
+  }
+}

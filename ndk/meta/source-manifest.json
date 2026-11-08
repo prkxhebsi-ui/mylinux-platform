@@ -1,0 +1,12 @@
+{
+  "components": [
+    {"name":"bionic","path":"source/bionic","status":"scaffold"},
+    {"name":"libcxx","path":"source/libcxx","status":"scaffold"},
+    {"name":"libcxxabi","path":"source/libcxxabi","status":"scaffold"},
+    {"name":"compiler-rt","path":"source/compiler-rt","status":"scaffold"},
+    {"name":"libunwind","path":"source/libunwind","status":"scaffold"},
+    {"name":"kernel-uapi","path":"source/kernel-uapi","status":"scaffold"},
+    {"name":"libandroid","path":"source/libandroid","status":"scaffold"},
+    {"name":"liblog","path":"source/liblog","status":"scaffold"}
+  ]
+}

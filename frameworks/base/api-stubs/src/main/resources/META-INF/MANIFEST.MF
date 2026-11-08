@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Implementation-Title: MyLinux Android API
+Implementation-Version: 1.0.0
+Created-By: MyLinux Build System

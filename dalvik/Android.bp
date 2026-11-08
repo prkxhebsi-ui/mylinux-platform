@@ -1,0 +1,9 @@
+cc_binary_host {
+    name: "mylinux_dexinspect",
+    srcs: [
+        "dexinspect.c",
+        "libdex/dex_header.c",
+    ],
+    local_include_dirs: ["libdex/include"],
+    c_std: "c11",
+}

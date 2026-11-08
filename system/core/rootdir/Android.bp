@@ -1,0 +1,16 @@
+// MyLinux rootdir configuration modules.
+// Requires a compatible Soong build environment.
+
+prebuilt_etc {
+    name: "mylinux_root_init_rc",
+    src: "init.rc",
+    sub_dir: "init/hw",
+    filename: "init.rc",
+}
+
+prebuilt_etc {
+    name: "mylinux_init_config",
+    src: "init.mylinux.rc",
+    sub_dir: "init/hw",
+    filename: "init.mylinux.rc",
+}

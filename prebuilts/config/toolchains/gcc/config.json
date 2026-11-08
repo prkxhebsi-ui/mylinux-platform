@@ -1,0 +1,11 @@
+{
+  "name": "mylinux-gcc",
+  "enabled": false,
+  "c_standard": "gnu17",
+  "cxx_standard": "c++20",
+  "optimization": "-O2",
+  "warnings": [
+    "-Wall",
+    "-Wextra"
+  ]
+}
