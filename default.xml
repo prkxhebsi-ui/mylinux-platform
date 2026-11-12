@@ -10,10 +10,4 @@
         revision="main"
         sync-j="1"
     />
-
-    <project
-        name="prkxhebsi-ui/mylinux-platform"
-        path="platform"
-        revision="main"
-    />
 </manifest>
