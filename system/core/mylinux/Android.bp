@@ -1,5 +1,0 @@
-cc_library_static {
-    name: "libmylinux_platform_metadata",
-    srcs: ["platform_metadata.c"],
-    export_include_dirs: ["include"],
-}

@@ -1,4 +1,0 @@
-platform=MyLinux
-android_base=11
-component=bionic-mylinux-runtime
-architecture=arm64

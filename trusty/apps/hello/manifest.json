@@ -1,6 +1,0 @@
-{
-    "name": "com.mylinux.trusty.hello",
-    "version": 1,
-    "entry": "main",
-    "type": "trusted_application"
-}

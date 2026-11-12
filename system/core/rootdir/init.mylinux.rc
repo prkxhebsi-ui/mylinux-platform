@@ -1,7 +1,0 @@
-# MyLinux platform configuration.
-#
-# This file is a starter configuration.
-# It is not installed or imported by Android init automatically.
-
-# Add MyLinux-specific startup actions here after
-# defining and validating the required services.

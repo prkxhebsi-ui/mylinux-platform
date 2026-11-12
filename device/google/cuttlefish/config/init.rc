@@ -1,9 +1,0 @@
-on boot
-    setprop mylinux.boot.completed 1
-
-on post-fs-data
-    mkdir /data/mylinux 0700
-
-service mylinux-desktop /usr/bin/mylinux-desktop
-    class main
-    disabled

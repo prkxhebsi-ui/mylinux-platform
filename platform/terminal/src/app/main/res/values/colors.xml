@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="terminal_background">#101010</color>
-    <color name="terminal_foreground">#E0E0E0</color>
-    <color name="terminal_accent">#33CC66</color>
-    <color name="terminal_error">#FF5555</color>
-    <color name="terminal_warning">#FFCC55</color>
-</resources>

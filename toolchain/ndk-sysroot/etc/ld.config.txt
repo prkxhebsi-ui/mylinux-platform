@@ -1,2 +1,0 @@
-# MyLinux development linker configuration placeholder
-# Not a production Android linker configuration.

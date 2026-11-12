@@ -1,8 +1,0 @@
-{
-  "theme": "dark",
-  "desktop_style": "hybrid",
-  "boot_animation": true,
-  "hidden_root_explorer": true,
-  "virtual_root": "c",
-  "qemu_required": false
-}

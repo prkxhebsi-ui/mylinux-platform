@@ -1,8 +1,0 @@
-{
-  "name": "linux-x86_64",
-  "architecture": "x86_64",
-  "triple": "x86_64-linux-gnu",
-  "default_compiler": "clang",
-  "default_linker": "ld.lld",
-  "position_independent_executables": true
-}

@@ -1,9 +1,0 @@
-{
-  "project": "MyLinux",
-  "primary_host": "android-arm64-termux",
-  "target_architecture": "arm64",
-  "preferred_compiler": "clang",
-  "preferred_linker": "ld.lld",
-  "build_system": "ninja",
-  "compiler_target": "aarch64-linux-android30"
-}

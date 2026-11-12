@@ -1,4 +1,0 @@
-# MyLinux GTO kernel module manifest
-#
-# Format: one verified module filename per line.
-# Leave empty until the target kernel/vendor module inventory is inspected.

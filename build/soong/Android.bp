@@ -1,5 +1,0 @@
-// MyLinux Soong extension area.
-// Add real Soong packages and modules as implementations are introduced.
-package {
-    default_visibility: ["//visibility:public"],
-}

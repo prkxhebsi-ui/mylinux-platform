@@ -1,6 +1,0 @@
-service surfaceflinger /system/bin/surfaceflinger
-    class core
-    user system
-    group graphics drmrpc readproc
-    capabilities SYS_NICE
-    priority -4

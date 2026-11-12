@@ -1,7 +1,0 @@
-[Unit]
-Description=Android Volume Daemon
-
-[Service]
-Type=simple
-ExecStart=/system/bin/vold
-Restart=on-failure

@@ -1,8 +1,0 @@
-cc_library_static {
-    name: "libmylinux_dex_header",
-    srcs: ["dex_header.c"],
-    export_include_dirs: ["include"],
-    c_std: "c11",
-    host_supported: true,
-    vendor_available: true,
-}

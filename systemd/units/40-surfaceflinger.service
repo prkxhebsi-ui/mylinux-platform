@@ -1,7 +1,0 @@
-[Unit]
-Description=Android SurfaceFlinger
-
-[Service]
-Type=simple
-ExecStart=/system/bin/surfaceflinger
-Restart=on-failure

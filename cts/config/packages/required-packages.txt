@@ -1,4 +1,0 @@
-android
-com.android.settings
-com.android.packageinstaller
-com.mylinux.system

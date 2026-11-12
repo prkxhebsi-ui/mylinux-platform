@@ -1,9 +1,0 @@
-# MyLinux APEX daemon.
-# Do not enable this service until APEX activation
-# and verification have been implemented.
-
-service mylinux-apexd /system/bin/mylinux_apexd
-    class core
-    user root
-    group root
-    disabled

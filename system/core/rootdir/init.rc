@@ -1,4 +1,0 @@
-# MyLinux platform init configuration.
-# This is a starting point, not a complete boot configuration.
-
-import /system/etc/init/hw/init.mylinux.rc

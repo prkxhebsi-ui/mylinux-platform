@@ -1,6 +1,0 @@
-#ifndef MYLINUX_CXX_CSTRING
-#define MYLINUX_CXX_CSTRING
-
-#error "MyLinux libc++ cstring placeholder: install matching libc++ headers"
-
-#endif

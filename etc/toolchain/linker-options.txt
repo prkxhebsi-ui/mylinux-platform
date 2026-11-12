@@ -1,5 +1,0 @@
-# MyLinux linker options
-# These options deliberately do not add RPATH or RUNPATH.
-
--Wl,--build-id=sha1
--Wl,--no-undefined

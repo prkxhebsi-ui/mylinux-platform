@@ -1,6 +1,0 @@
-package(default_visibility = ["//visibility:public"])
-
-filegroup(
-    name = "framework_documentation",
-    srcs = ["README.md"],
-)
